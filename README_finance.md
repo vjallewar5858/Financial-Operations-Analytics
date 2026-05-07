@@ -1,12 +1,6 @@
 # 💰 Financial Operations & Campaign Performance Analysis
 ### Bank Marketing Dataset | 41,188 Customer Records | Python · SQL · Excel · Power BI
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-SQLite-lightgrey?logo=sqlite)
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=powerbi)
-![Excel](https://img.shields.io/badge/Excel-Financial_Model-green?logo=microsoftexcel)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-
 ---
 
 ## 📌 Project Overview
@@ -181,39 +175,8 @@ Open `sql.sql` in DB Browser for SQLite or any SQLite client, connected to `bank
 
 ---
 
-## ⚠️ Limitations
-
-- Dataset reflects campaigns from a Portuguese bank (2008–2013) — economic context differs from current markets
-- `duration` (call length) is known only after the call ends and should not be used in a predictive deployment context — used here for anomaly analysis only
-- 'unknown' values for `job`, `education`, `marital` were treated as missing rather than a separate category
-- No predictive model built in this phase — analysis is descriptive and diagnostic
-
----
-
-## 🔮 Next Steps (Planned)
-
-- **Phase 2:** Build a classification model (Logistic Regression / XGBoost) to predict subscription likelihood before calling
-- **Phase 3:** SHAP-based model explainability to understand which features drive individual predictions
-- **Phase 4:** Cost-benefit model — attach campaign cost per call to quantify exact wasted spend in currency
-
----
-
 ## 📜 Data Source
 
 Moro, S., Cortez, P., & Rita, P. (2014). *A Data-Driven Approach to Predict the Success of Bank Telemarketing.* Decision Support Systems.
 
 Dataset: [UCI ML Repository — Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing)
-
----
-
-## 👤 Author
-
-**Vaishnavi Jallewar**
-Data Analyst | Python · SQL · Power BI · EDA
-
-📧 jallewarvaishnavi517@gmail.com
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourprofile)
-
----
-
-*This project is part of a data analytics portfolio demonstrating end-to-end financial campaign analysis on real-world banking data.*
